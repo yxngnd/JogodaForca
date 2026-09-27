@@ -15,5 +15,3 @@ Exibir a palavra escolhida com asteriscos nas letras que ainda não foram descob
 Permitir até 5 tentativas erradas;
 
 O usuário deve escolher uma letra por vez.
-
-Informações importantes sobre a Atividade
