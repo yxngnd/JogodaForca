@@ -98,7 +98,7 @@ local function decodeString(s, i)
                 i = i + 2
             elseif nextChar == "u" then
                 local hex = s:sub(i + 2, i + 5)
-                local codepoint = tonumber(hex, 16) or 63 -- 63 = '?'
+                local codepoint = tonumber(hex, 16) or 63
                 result[#result + 1] = utf8 and utf8.char(codepoint) or string.char(codepoint % 256)
                 i = i + 6
             else
