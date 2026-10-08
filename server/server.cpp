@@ -25,7 +25,7 @@ struct Player {
 };
 
 std::vector<std::string> wordList = {
-    "chinchila", "dromedario", "escaravelho", "ornitorrinco", "jamelao"
+    "chinchila", "dromedario", "escaravelho", "ornitorrinco", "percevejo"
 };
 
 std::string secretWord;
