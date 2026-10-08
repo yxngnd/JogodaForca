@@ -59,7 +59,7 @@ local function isLetterTried(triedLetters, letter)
 end
 
 math.randomseed(os.time())
-local words = {"chinchila", "dromedário", "escaravelho", "ornitorrinco", "percevejo"}
+local words = {"chinchila", "dromedario", "escaravelho", "ornitorrinco", "percevejo"}
 local secretWord = drawWord(words)
 
 --print(secretWord)
